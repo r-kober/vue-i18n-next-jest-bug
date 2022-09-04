@@ -1,17 +1,6 @@
 <template>
-	<img
-		src="https://flagcdn.com/de.svg"
-		width="24"
-		title="Deutsch"
-		alt="German"
-		class="me-1"
-		@click="selectLanguage('de')" />
-	<img
-		src="https://flagcdn.com/gb.svg"
-		width="24"
-		alt="English"
-		title="English"
-		@click="selectLanguage('en')" />
+	<span title="Deutsch" @click="selectLanguage('de')">German</span>
+	<span title="English" @click="selectLanguage('en')">English</span>
 </template>
 
 <script>
