@@ -1,0 +1,9 @@
+{
+	"signUp": "Registrieren",
+	"username": "Benutzername",
+	"email": "E-mail",
+	"password": "Passwort",
+	"passwordRepeat": "Passwort Wiederholung",
+	"passwordMismatchValidation": "Passwort stimmt nicht überein",
+	"accountActivationNotification": "Bitte überprüfen Sie Ihre e-mail um Ihr Konto zu aktivieren"
+}
