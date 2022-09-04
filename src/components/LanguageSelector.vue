@@ -1,6 +1,10 @@
 <template>
-	<span title="Deutsch" @click="selectLanguage('de')">German</span>
-	<span title="English" @click="selectLanguage('en')">English</span>
+	<button class="language" title="Deutsch" @click="selectLanguage('de')">
+		German
+	</button>
+	<button class="language" title="English" @click="selectLanguage('en')">
+		English
+	</button>
 </template>
 
 <script>
@@ -17,7 +21,7 @@ export default {
 </script>
 
 <style scoped>
-img {
+.language {
 	cursor: pointer;
 }
 </style>
